@@ -6,9 +6,9 @@ import LoadingSpinner from './components/LoadingSpinner'
 import './App.css'
 
 // Lazy load pages for better performance
-const Home = React.lazy(() => import('./pages/Home'))
-const About = React.lazy(() => import('./pages/About'))
-const Contact = React.lazy(() => import('./pages/Contact'))
+const Home = React.lazy(() => import('./Pages/Home'))
+const About = React.lazy(() => import('./Pages/About'))
+const Contact = React.lazy(() => import('./Pages/Contact'))
 
 function App() {
   return (
